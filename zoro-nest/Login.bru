@@ -1,0 +1,17 @@
+meta {
+  name: Login
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{parentUrl}}/login1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email": "arjunkapoor.nsit+1@gmail.com"
+  }
+}
